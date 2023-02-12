@@ -1,0 +1,68 @@
+{
+  "main_config": "checkpoints/dtu_scan63/neumesh/config.yaml",
+  "main_mask_mesh": [
+    "checkpoints/dtu_scan63/editing/texture_swapping/gold.ply"
+  ],
+  "main_ckpt": "checkpoints/dtu_scan63/neumesh/latest.pt",
+  "ref_config": [
+    "checkpoints/dtu_scan63/neumesh/config.yaml"
+  ],
+  "ref_mask_mesh": [
+    "checkpoints/dtu_scan63/editing/texture_swapping/red.ply"
+  ],
+  "ref_ckpt": [
+    "checkpoints/dtu_scan63/neumesh/latest.pt"
+  ],
+  "T_r_m": [
+    [
+      [
+        0.6895001680005979,
+        -0.5103673773964366,
+        0.5527331873551917,
+        -0.3148391803585366
+      ],
+      [
+        0.5552098436268111,
+        0.8511372587132556,
+        0.0933097763215382,
+        -0.041087186687894045
+      ],
+      [
+        -0.5076720061754797,
+        0.23767588204688778,
+        0.8527476925950527,
+        -0.22058178197560607
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  ],
+  "corr": [
+    [
+      [
+        77969,
+        128970
+      ],
+      [
+        99087,
+        138161
+      ],
+      [
+        53588,
+        129124
+      ],
+      [
+        32699,
+        84157
+      ],
+      [
+        37113,
+        82392
+      ]
+    ]
+  ]
+}

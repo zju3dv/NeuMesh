@@ -1,0 +1,7 @@
+{
+    "main_config": "checkpoints/dtu_scan105/neumesh/config.yaml",
+    "paint_name": "paint",
+    "paint_dir": "../data/dtu_scan105_whiteglass",
+    "ckpt_path": "checkpoints/dtu_scan105/neumesh/latest.pt",
+    "num_iters": 10000
+}

@@ -1,0 +1,15 @@
+{
+  "main_config": "checkpoints/dtu_scan118/neumesh/config.yaml",
+  "main_mask_mesh": ["checkpoints/dtu_scan118/editing/texture_filling/hair.obj", 
+    "checkpoints/dtu_scan118/editing/texture_filling/hands.obj", 
+    "checkpoints/dtu_scan118/editing/texture_filling/wing.obj"],
+  "main_ckpt": "checkpoints/dtu_scan118/neumesh/latest.pt",
+  "ref_config": ["checkpoints/dtu_scan83/neumesh/config.yaml","checkpoints/dtu_scan110/neumesh/config.yaml","checkpoints/dtu_scan105/neumesh/config.yaml"],
+  "ref_mask_mesh": ["checkpoints/dtu_scan118/editing/texture_filling/red_trouser.obj",
+    "checkpoints/dtu_scan118/editing/texture_filling/golden.obj",
+    "checkpoints/dtu_scan118/editing/texture_filling/white_mouse.obj"],
+  "ref_ckpt": ["checkpoints/dtu_scan83/neumesh/latest.pt",
+    "checkpoints/dtu_scan110/neumesh/latest.pt",
+    "checkpoints/dtu_scan105/neumesh/latest.pt"],
+  "step":[0.5, 0.5, 0.5]
+}

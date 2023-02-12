@@ -1,0 +1,4 @@
+{
+  "main_config": "checkpoints/dtu_scan83/neumesh/config.yaml",
+  "deformed_mesh": "checkpoints/dtu_scan83/editing/geometry/wave.ply"
+}

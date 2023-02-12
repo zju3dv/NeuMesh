@@ -1,0 +1,60 @@
+data:
+  N_rays: 512
+  batch_size: 1
+  cam_file: cameras_sphere.npz
+  data_dir: ../data/DTU/dtu_scan63
+  downscale: 1
+  pin_memory: true
+  val_downscale: 8
+  val_rayschunk: 256
+  split: entire
+ddp: false
+device_ids:
+- 0
+expname: neus_dtuscan63
+model:
+  N_nograd_samples: 2048
+  N_upsample_iters: 4
+  framework: NeuS
+  obj_bounding_radius: 1.0
+  radiance:
+    D: 4
+    W: 256
+    embed_multires: -1
+    embed_multires_view: 4
+    skips: []
+  surface:
+    D: 8
+    W: 256
+    embed_multires: 6
+    radius_init: 0.5
+    skips:
+    - 4
+  variance_init: 0.05
+port: null
+training:
+  ckpt_file: null
+  ckpt_ignore_keys: []
+  ckpt_only_use_keys: null
+  i_backup: 50000
+  i_save: 900
+  i_val: 500
+  i_val_mesh: -1
+  log_root_dir: logs
+  lr: 0.0005
+  monitoring: tensorboard
+  num_iters: 200000
+  scheduler:
+    type: warmupcosine
+    warmup_steps: 5000
+  speed_factor: 10.0
+  loss_weights:
+    distill_color: 0.0
+    distill_density: 0.0
+    eikonal: 0.1
+    img: 1.0
+    indicator_reg: 0.0
+    mask: 1.0
+  required_grad_lns: True
+
+
