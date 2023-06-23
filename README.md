@@ -29,7 +29,7 @@ We use DTU data of [NeuS version](https://github.com/Totoro97/NeuS) and [NeRF sy
 <!-- Our code reads the poses following the format of `camera_sphere.npz`. 
 Therefore, we convert the poses of NeRF synthetic data to [`camera_sphere.npz`](). -->
 
-P.S. Please enable the `intrinsic_from_cammat: True` for `drums`, `chair`, `mic` if you use the provided NeRF synthetic dataset.
+P.S. Please enable the `intrinsic_from_cammat: True` for `hotdog`, `chair`, `mic` if you use the provided NeRF synthetic dataset.
 
 ## Train
 Here we show how to run our code on one example scene.
