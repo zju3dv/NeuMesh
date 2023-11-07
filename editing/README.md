@@ -1,5 +1,5 @@
 # NeuMesh Manipulation
-Here we provide some [manipulation cases](https://zjueducn-my.sharepoint.com/:f:/g/personal/12021089_zju_edu_cn/EmEjhcYEOGZJj_EOOMYPFxQBkzBGzwYFyYPaWeob0PTSng?e=DNXtJx) used in our experiments. The cases are saved inside `checkpoints/[sequence_name]/editing` directory.
+Here we provide some [manipulation cases](https://zjueducn-my.sharepoint.com/:f:/g/personal/12021089_zju_edu_cn/EmEjhcYEOGZJj_EOOMYPFxQBkzBGzwYFyYPaWeob0PTSng?e=yt5RCg) used in our experiments. The cases are saved inside `checkpoints/[sequence_name]/editing` directory.
 ## Geometry Editing
 Here we show how to perform geometry editing on one example scene.
 1. Deform the prior mesh with off-the-shelf 3D modelling software (Blender, MeshLab, etc).
@@ -70,7 +70,7 @@ python -m editing.render_texture_filling --config configs/texture_filling/dtusca
 
 ## Texture painting
 Here we show how to perform texture painting on one example scene.
-You can download [the painting dataset of the example](https://zjueducn-my.sharepoint.com/:u:/g/personal/12021089_zju_edu_cn/ESrrMz-wpcRIm2TJvAJyGjABS4PZuTkeldjKsxAlO18yRw?e=fIijMG) or prepare by yourself.
+You can download [the painting dataset of the example](https://zjueducn-my.sharepoint.com/:u:/g/personal/12021089_zju_edu_cn/ESrrMz-wpcRIm2TJvAJyGjABS4PZuTkeldjKsxAlO18yRw?e=bw2zad) or prepare by yourself.
 
 1. Prepare the painting dataset as follows:
     * `image`: painted image.
