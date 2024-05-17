@@ -29,7 +29,7 @@ We use DTU data of [NeuS version](https://github.com/Totoro97/NeuS) and [NeRF sy
 <!-- Our code reads the poses following the format of `camera_sphere.npz`. 
 Therefore, we convert the poses of NeRF synthetic data to [`camera_sphere.npz`](). -->
 
-[Update]: We release the [test image names](https://www.dropbox.com/scl/fi/fify9kam0dc9pllm9pard/DTU_valnames.zip?rlkey=g24usqfm2phzi5dvcksulbya3&st=u83iq74d&dl=0) for our pre-trained model in the DTU dataset, which is randomly selected for evaluating PSNR/SSIM/LPIPS. Each sequence has a `val_names.txt` that contains the names of test images.
+[Update]: We release the [test image names](https://www.dropbox.com/scl/fi/0pkd77wkv9wl0m35ozy1l/DTU.zip?rlkey=5bf1m5lyp7ynx5tkrylnv9hil&st=7xcfqux5&dl=0) for our pre-trained model in the DTU dataset, which is randomly selected for evaluating PSNR/SSIM/LPIPS. Each sequence has a `val_names.txt` that contains the names of test images.
 
 P.S. Please enable the `intrinsic_from_cammat: True` for `hotdog`, `chair`, `mic` if you use the provided NeRF synthetic dataset.
 
