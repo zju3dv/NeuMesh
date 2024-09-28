@@ -25,11 +25,11 @@ The steps of installation are as follows:
 * install [FRNN](https://github.com/lxxue/FRNN), a fixed radius nearest neighbors search implemented on CUDA.
 
 ## Data
-We use DTU data of [NeuS version](https://github.com/Totoro97/NeuS) and [NeRF synthetic data](https://zjueducn-my.sharepoint.com/:u:/g/personal/12021089_zju_edu_cn/EUTdA3riYNFAiCVas_f7ByEBfFykG_ow9fZy_fD37drgqg?e=5RwDCU).
+We use DTU data of [NeuS version](https://github.com/Totoro97/NeuS) and [NeRF synthetic data](https://www.dropbox.com/scl/fi/i06pz7b6frvfvqtzmv74o/nerf_synthetic.zip?rlkey=je4q2vfen166jcxrqw86nfbqj&st=9s62dxiz&dl=0).
 <!-- Our code reads the poses following the format of `camera_sphere.npz`. 
 Therefore, we convert the poses of NeRF synthetic data to [`camera_sphere.npz`](). -->
 
-[Update]: We release the [test image names](https://www.dropbox.com/scl/fi/0pkd77wkv9wl0m35ozy1l/DTU.zip?rlkey=5bf1m5lyp7ynx5tkrylnv9hil&st=7xcfqux5&dl=0) for our pre-trained model in the DTU dataset, which is randomly selected for evaluating PSNR/SSIM/LPIPS. Each sequence has a `val_names.txt` that contains the names of test images.
+[Update]: We release the [test image names](https://www.dropbox.com/scl/fo/o7vvobhspv6r2uw08p4hm/AGUlk0SpTLHme8cFcOoSKm0?rlkey=7s15mi3qr0ku85xmwqq6i2157&st=6iwn840t&dl=0) for our pre-trained model in the DTU dataset, which is randomly selected for evaluating PSNR/SSIM/LPIPS. Each sequence has a `val_names.txt` that contains the names of test images.
 
 P.S. Please enable the `intrinsic_from_cammat: True` for `hotdog`, `chair`, `mic` if you use the provided NeRF synthetic dataset.
 
@@ -51,7 +51,7 @@ python train.py --config configs/neumesh_dtu_scan63.yaml
 ```
 ## Evaluation
 
-Here we provide all [pre-trained models](https://zjueducn-my.sharepoint.com/:f:/g/personal/12021089_zju_edu_cn/EmEjhcYEOGZJj_EOOMYPFxQBkzBGzwYFyYPaWeob0PTSng?e=me7BbG) of DTU and NeRF synthetic dataset.
+Here we provide all [pre-trained models](https://www.dropbox.com/scl/fo/3pmq3139vtifnaak3h41a/AMOH18OVsLBp9M72WyPjitI?rlkey=q77k3bbkl1bcil3qrvrsvz7se&st=ay9fm5t8&dl=0) of DTU and NeRF synthetic dataset.
 
 You can evaluate images with the trained models. 
 
