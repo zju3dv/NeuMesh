@@ -25,7 +25,7 @@ The steps of installation are as follows:
 * install [FRNN](https://github.com/lxxue/FRNN), a fixed radius nearest neighbors search implemented on CUDA.
 
 ## Data
-We use DTU data of [NeuS version](https://github.com/Totoro97/NeuS) and [NeRF synthetic data](https://zjueducn-my.sharepoint.com/:u:/g/personal/12021089_zju_edu_cn/EUTdA3riYNFAiCVas_f7ByEBfFykG_ow9fZy_fD37drgqg?e=tsX8YV).
+We use DTU data of [NeuS version](https://github.com/Totoro97/NeuS) and [NeRF synthetic data](https://zjueducn-my.sharepoint.com/:u:/g/personal/12021089_zju_edu_cn/EUTdA3riYNFAiCVas_f7ByEBfFykG_ow9fZy_fD37drgqg?e=5RwDCU).
 <!-- Our code reads the poses following the format of `camera_sphere.npz`. 
 Therefore, we convert the poses of NeRF synthetic data to [`camera_sphere.npz`](). -->
 
@@ -51,7 +51,7 @@ python train.py --config configs/neumesh_dtu_scan63.yaml
 ```
 ## Evaluation
 
-Here we provide all [pre-trained models](https://zjueducn-my.sharepoint.com/:f:/g/personal/12021089_zju_edu_cn/EmEjhcYEOGZJj_EOOMYPFxQBkzBGzwYFyYPaWeob0PTSng?e=6EElvr) of DTU and NeRF synthetic dataset.
+Here we provide all [pre-trained models](https://zjueducn-my.sharepoint.com/:f:/g/personal/12021089_zju_edu_cn/EmEjhcYEOGZJj_EOOMYPFxQBkzBGzwYFyYPaWeob0PTSng?e=me7BbG) of DTU and NeRF synthetic dataset.
 
 You can evaluate images with the trained models. 
 
